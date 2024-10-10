@@ -19,7 +19,12 @@ This is a long scrolling single page. The HTML file index.html contains all text
 
 ## acknowledgment
 Fonts
-<li></li>
+<li>Anton — Designed by Vernon Adams</li>
+<li>Galada — Designed by Black Foundry</li>
+<li>Monsieur La Doulaise — Designed by Sudtipos</li>
+<li>Passion One — Designed by Fontstage</li>
+
+
 <br>
 Lyrics from: 'Kiss From A Rose'
 <li>Performed by Seal</li>
