@@ -3,21 +3,47 @@
     padding: 0;
 }
 
+html{
+    background-color: rgb(232, 220, 188);
+}
+
 body {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 2%;
-    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
     text-align: center;
 }
 
-.line1 {
+.line {
     font-family: 'Monsieur La Doulaise', cursive;
-    font-size: 50px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+/* ---------- PAGE 1: "THERE USED TO BE A GRAYING TOWER ALONE ON THE SEA" ---------- */
+
+#flex1-1 {
+    display: flex;
+    /* background: pink; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:last baseline;
+    /* align-items: flex-end; */
+    column-gap: 2%;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-bottom: 5%; */
+    /* margin-top: 5%; */
+}
+
+#flex1-1-2 {
+    /* background: green; */
+    text-align: right;
 }
 
 #gray {
-    margin-top: 3%;
+    /* margin-top: 3%; */
     font-family: 'Passion One', sans-serif;
     font-size: 125px;
     transition-duration: 2s;
@@ -33,11 +59,13 @@ body {
     transition-duration: 3s;
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
-    font-size: 300px;
-    transform: scaleY(0.5);
+    font-size: 250px;
+    transform: scaleY(0.65);
     transform-origin: center bottom;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 
+    /* background-color: aqua; */
+    /* align-self:flex-end; */
     /* text-shadow: 0px 0px 30px gray; */
 
 }
@@ -48,15 +76,76 @@ body {
 
 #alone {
     font-family: 'Passion One', sans-serif;
-    font-size: 125px;
+    font-size: 85px;
     transition-duration: 2s;
-
+    text-align: center;
+    /* text-align: right;
+    margin-right: 16%; */
 }
 
 #alone:hover {
     letter-spacing: 40px;
 }
 
-#sea {
+#flex1-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items:last baseline;
+    margin-right: 25%;
+    column-gap: 5%;
+}
 
+#sea {
+    font-family: 'Galada', cursive;
+    font-size: 120px;
+    transition-duration: 2s;
+    text-shadow: 0px 0px 20px rgb(189, 179, 135);
+
+}
+
+#sea a {
+    text-decoration: none;
+    color:#1f83bc;
+
+}
+
+/* #sea a:hover {
+    color: rgb(206, 149, 57);
+    background-color: #1f83bc;
+    text-shadow: 0px 0px 30px rgb(250, 246, 229);
+} */
+
+
+
+
+/* ---------- PAGE 2: "YOU BECAME THE LIGHT ON THE DARK SIDE OF ME" ---------- */
+
+.p2 {
+    font-family: 'Passion One', sans-serif;
+    font-size: 100px;
+}
+
+#light {
+    text-shadow: 0px 0px 30px white;
+    color: transparent;
+    transition-duration: 2s;
+    background-color: black;
+}
+
+#light:hover {
+    color: rgb(218, 218, 218);
+    text-shadow: 0px 0px 10px black;
+}
+
+#dark {
+    text-shadow: 0px 0px 30px black;
+    color: transparent;
+    transition-duration: 2s;
+    background-color: white;
+}
+
+#dark:hover {
+    color: rgb(48, 48, 48);
+    text-shadow: 0px 0px 10px white;
 }
