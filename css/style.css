@@ -49,46 +49,61 @@ body {
     /* margin-top: 3%; */
     font-family: 'Passion One', sans-serif;
     font-size: 125px;
-    transition-duration: 2s;
+    /* transition-duration: 2s; */
 
     /* text-shadow: 0px 0px 30px gray; */
+    animation-name: gray;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
-#gray:hover {
+
+/* #gray:hover {
     color: gray;
-}
+} */
 
 #tower {
     transition-duration: 3s;
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     font-size: 250px;
-    transform: scaleY(0.65);
+    /* transform: scaleY(0.65); */
     transform-origin: center bottom;
     /* margin-bottom: 5%; */
 
     /* background-color: aqua; */
     /* align-self:flex-end; */
     /* text-shadow: 0px 0px 30px gray; */
+    animation-name: tower;
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 
 }
 
-#tower:hover {
+/* #tower:hover {
     transform: scaleY(1);
-}
+} */
 
 #alone {
     font-family: 'Passion One', sans-serif;
     font-size: 85px;
-    transition-duration: 2s;
+    /* transition-duration: 2s; */
     text-align: center;
     /* text-align: right;
     margin-right: 16%; */
+    animation-name: alone;
+    animation-direction: alternate;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
 }
 
-#alone:hover {
+/* #alone:hover {
     letter-spacing: 40px;
-}
+} */
 
 #flex1-2 {
     display: flex;
@@ -214,3 +229,42 @@ body {
 }
 
 /* ---------- PAGE 3: "LOVE REMAINED A DRUG THAT'S THE HIGH AND NOT THE PILL" ---------- */
+
+
+
+
+
+
+
+
+
+/* ---------- ANIMATIONS KEYFRAMES ---------- */
+@keyframes gray {
+    from{
+        color: black;
+    }
+    to{
+        color: gray;
+    }    
+}
+
+@keyframes tower {
+    from{
+        transform: scaleY(0.65);
+    }
+    to{
+        transform: scaleY(1);
+    }
+}
+
+
+@keyframes alone {
+    from {
+        letter-spacing: normal;
+    }
+    to {
+        letter-spacing: 40px;
+    }
+}
+
+
