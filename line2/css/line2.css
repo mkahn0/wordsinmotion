@@ -1,0 +1,172 @@
+/* ---------- PAGE 2: "YOU BECAME THE LIGHT ON THE DARK SIDE OF ME" ---------- */
+#pgtwo{
+    background-color: black;
+    cursor: default;
+}
+
+.p2 {
+    font-family: 'Passion One', sans-serif;
+    font-size: 100px;
+}
+
+/* .P2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    justify-content: center;
+    align-items: center;
+} */
+
+#flex2-1 {
+    margin-left: 5%;
+    padding-top: 10%;
+    /*padding-bottom: 3%;
+    background-color: black;  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    justify-content: left;
+    align-items: first baseline;
+    /* background-color: green; */
+}
+
+#became {
+    color: white;
+}
+
+#light {
+    text-shadow: 0px 0px 30px white;
+    color: transparent;
+    transition-duration: 2s;
+    /* background-color: pink; */
+    /*width: 200px;
+    margin: auto; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    justify-content: left;
+    align-items: first baseline;
+
+}
+
+#light:hover {
+    color: rgb(218, 218, 218);
+    text-shadow: 0px 0px 10px black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-shadow: none;
+    /* text-shadow: 0px 0px 20px rgb(48, 48, 48); */
+    font-family: 'Galada', cursive;
+}
+
+#me {
+    position: fixed;
+    left: 985px;
+    top: 580px;
+    /* color: rgb(138, 0, 0); */
+    
+}
+
+#change {
+    /* background-color: pink; */
+    color: black;
+    text-shadow: none;
+}
+#side {
+    width: auto;
+    /* background: green; */
+    font-family: 'Passion One', sans-serif;
+    font-size: 80px;
+    color: black;
+    text-shadow: none;
+    transition-duration: 1.5s;
+    transition-delay: 1s;
+    /* transition-duration: 1.5s;
+    transform-origin: bottom left;
+    width: 150px;
+    transform : rotate(-90deg);
+    margin-left: 10%; */
+    position: fixed;
+    left: 815px;
+    top: 555px;
+}
+
+#dark {
+    color: black;
+    text-shadow: none;
+    transition-duration: 1.5s;
+    transition-delay: 0.5s;
+    position: fixed;
+    left: 615px;
+    top: 305px;
+}
+
+#effect {
+    color: black;
+    text-shadow: none;
+    transition-duration: 1.5s;
+    transition-delay: 0s;
+    position: fixed;
+    left: 500px;
+    top: 350px;
+}
+
+
+/*#light:hover #change{
+    color: white;
+    background-color: white;
+} */
+
+#light:hover #effect{
+    color: white;
+}
+
+#light:hover #dark{
+    color: white;
+}
+#light:hover #side{
+    color: white;
+}
+
+/* #flex2-2 {
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white; 
+}*/
+
+/* #dark {
+    text-shadow: 0px 0px 30px black;
+    color: white;
+    transition-duration: 2s; 
+    background-color: white;
+} */
+
+/* #dark:hover {
+    color: rgb(48, 48, 48);
+    text-shadow: 0px 0px 10px white;
+} */
+
+/* #flex2-3 {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+} */
+
+
+
+/* #side:hover {
+    transform : rotate(0deg);
+} */
+
+
