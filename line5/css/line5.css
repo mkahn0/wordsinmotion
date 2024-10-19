@@ -1,4 +1,4 @@
-/* ---------- PAGE 4: "BUT DID YOU KNOW" ---------- */
+/* ---------- PAGE 5: "BUT DID YOU KNOW" ---------- */
 
 #question{ 
     color: black;
@@ -36,11 +36,10 @@ a {
     flex-wrap: nowrap;
 }
 
-
 #bques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
@@ -49,132 +48,132 @@ a {
 #uques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 1s;
+    animation-delay: 0.75s;
     animation-fill-mode: forwards;
 }
 
 #tques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 
 #dques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 2s;
+    animation-delay: 1.25s;
     animation-fill-mode: forwards;
 }
 
 #iques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 2.5s;
+    animation-delay: 1.5s;
     animation-fill-mode: forwards;
 }
 #d2ques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 3s;
+    animation-delay: 1.75s;
     animation-fill-mode: forwards;
 }
 #yques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 3.5s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 #oques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 4s;
+    animation-delay: 2.25s;
     animation-fill-mode: forwards;
 }
 #u2ques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 4.5s;
+    animation-delay: 2.5s;
     animation-fill-mode: forwards;
 }
 #kques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 5s;
+    animation-delay: 2.75s;
     animation-fill-mode: forwards;
 }
 #nques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 5.5s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
 }
 #o2ques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 6s;
+    animation-delay: 3.25s;
     animation-fill-mode: forwards;
 }
 #wques {
     animation-name: show;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 6.5s;
+    animation-delay: 3.5s;
     animation-fill-mode: forwards;
 }
 #dotoneques {
     animation-name: show;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-delay: 7s;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 4.75s;
     animation-fill-mode: forwards;
 }
 #dottwoques {
     animation-name: show;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-delay: 7.5s;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
     animation-fill-mode: forwards;
 }
 #dotthreeques {
     animation-name: show;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-delay: 8s;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 5.25s;
     animation-fill-mode: forwards;
 }
 #quesmark {
     animation-name: show;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-delay: 8.5s;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 5.5s;
     animation-fill-mode: forwards;
 }
 

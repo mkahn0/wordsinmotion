@@ -1,0 +1,124 @@
+/* ---------- PAGE 8: "LIGHT THAT YOU SHINE CAN BE SEEN" ---------- */
+
+.lightshine {
+    font-family: 'Passion One', sans-serif;
+    color: white;
+    font-size: 100px;
+}
+
+#that {
+    color: black;
+    text-shadow: none;
+    transition-duration: 2s;
+    transition-delay: 0.25s;
+}
+
+#you {
+    color: black;
+    text-shadow: none;
+    transition-duration: 2s;
+    transition-delay: 0.75s;
+
+}
+
+#can {
+    color: black;
+    text-shadow: none;
+    transition-duration: 2s;
+    transition-delay: 0.25s;
+}
+
+#be {
+    color: black;
+    text-shadow: none;
+    transition-duration: 2s;
+    transition-delay: 0.75s;
+}
+
+#light2 {
+    text-shadow: 0px 0px 30px white;
+    color: transparent;
+    transition-duration: 2s;
+    transition-delay: 0s;
+}
+
+#light2:hover {
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+#light2:hover #that{
+    color: white;
+}
+#light2:hover #you{
+    color: white;
+}
+
+#shine {
+    text-shadow: 0px 0px 30px white;
+    color: transparent;
+    transition-duration: 2s;
+    transition-delay: 0s;
+}
+
+#shine:hover {
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+#shine:hover #can{
+    color: white;
+}
+#shine:hover #be{
+    color: white;
+}
+
+#flex8-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    column-gap: 5%;
+    justify-content: left;
+    margin-left: 10%;
+    /* margin-top: 5%; */
+    /* background-color: green; */
+}
+
+#flex8-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    column-gap: 5%;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 0px 0px 30px white;
+    transition-duration: 2s;
+    transition-delay: 0s;
+}
+
+#seen {
+    color: transparent;
+    /* background-color: pink; */
+    position: relative;
+    left: 400px;
+
+}
+
+#seen:hover {
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+/* ---------- ANIMATIONS KEYFRAMES ---------- */
