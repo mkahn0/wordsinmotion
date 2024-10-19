@@ -1,0 +1,186 @@
+/* ---------- PAGE 4: "BUT DID YOU KNOW" ---------- */
+
+#question{ 
+    color: black;
+    font-family: 'Passion One', sans-serif;
+    font-size: 100px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 20%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#but {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#did {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#you {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+#bques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#uques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#tques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+#dques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+#iques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+#d2ques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+#yques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+#oques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+#u2ques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+}
+#kques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+#nques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+}
+#o2ques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+#wques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 6.5s;
+    animation-fill-mode: forwards;
+}
+#dotoneques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+#dottwoques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 7.5s;
+    animation-fill-mode: forwards;
+}
+#dotthreeques {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
+#quesmark {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 8.5s;
+    animation-fill-mode: forwards;
+}
+
+/* ---------- ANIMATIONS KEYFRAMES ---------- */
+
+@keyframes show {
+    from{color: black}
+    to{color: white}
+}

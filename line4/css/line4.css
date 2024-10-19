@@ -2,78 +2,108 @@
 #flex4-1 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 2%;
-    justify-content: center;
-    align-items: last baseline;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    flex-wrap: nowrap;
+    justify-content: left;
+    column-gap: 2.5%;
+    align-items: top;
+    margin-top: 10%;
     margin-left: 10%;
+    /* background-color: green; */
+    text-align: left;
+}
+
+#that {
+    margin-bottom: 0.5%;
 }
 
 #high {
-    font-family: 'Passion One';
-    font-size: 72px;
+    /* margin-top: 0.5%; */
+    /* margin-left: 9%; */
+    
+    font-family: 'Passion One', sans-serif;
+    font-size: 250px;
     color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-}
-
-.h {
+    /* background-color: pink; */
     position: relative;
-    transition-duration: 1.5s;
 }
 
-.h:hover {
-    /* animation-name: high;
-    animation-direction: alternate;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite; */
-    transform: translate(0,-50px);
+#h1 {
+    animation-name: high;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#h2 {
+    animation-name: high;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.075s;
+}
+#g2 {
+    animation-name: high;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.15s;
+}
+#i {
+    animation-name: high;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
 }
 
+#h1 {
+    position: relative;
+}
+
+#h2 {
+    position: relative;
+}
 #i {
     position: relative;
-    transition-duration: 1.5s;
+    /* transition-duration: 1.5s; */
 }
 
-#i:hover {
-    /* animation-name: high;
+/* #i:hover {
+    animation-name: high;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite; */
+    animation-iteration-count: infinite;
     transform: translate(0,-50px);
-
-}
+} */
 
 #g2 {
     position: relative;
-    transition-duration: 1.5s;
+    /* transition-duration: 1.5s; */
 }
 
-#g2:hover {
-    /* animation-name: high;
+/* #g2:hover {
+    animation-name: high;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite; */
+    animation-iteration-count: infinite;
     transform: translate(0,-50px);
-
-}
+} */
 
 a {
     text-decoration: none;
     color: white;
-    font-family: 'Passion One';
-    font-size: 54px;
-    border: 5px solid white;
+    font-family: 'Galada', cursive;
+    font-size: 100px;
+    /* border: 5px solid white;
     padding-left: 1%;
-    padding-right: 1%;
+    padding-right: 1%; */
     /* padding-top: 0.5%;
     padding-bottom: 0.5%; */
-    border-radius: 100px;
+    /* border-radius: 100px;
     border-top-width: 3px;
-    border-bottom-width: 8px;
+    border-bottom-width: 8px; */
 }
 
 #flex4-2 {
@@ -81,28 +111,31 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 2%;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
-    margin-right: 5%;
+    margin-right: 20%;
+    /* background-color: purple; */
 }
 
-#pill {
+/* #pill {
     position: relative;
     animation-name: pill;
     animation-direction: alternate;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-}
-
-/* ---------- ANIMATIONS KEYFRAMES ---------- */
-/* @keyframes high {
-    from {top: 0px}
-    to {top: -20px}
 } */
 
-@keyframes pill {
+/* ---------- ANIMATIONS KEYFRAMES ---------- */
+@keyframes high {
+    0% {top: 800px}
+    40% {top: 0px}
+    50% {top: 0px}
+    100% {top: -500px}
+}
+
+/* @keyframes pill {
     from {rotate: -15deg;}
     to {rotate: 15deg;}
-}
+} */
