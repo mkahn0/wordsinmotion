@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+html{
+    cursor: default;
+    background-color: black;
+}
+
 body {
     min-height: 100vh;
     width: 100%;
@@ -15,5 +20,5 @@ body {
     font-family: 'Monsieur La Doulaise', cursive;
     font-size: 45px;
     line-height: 1;
+    color: white;
 }
-

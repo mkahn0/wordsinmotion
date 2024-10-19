@@ -1,0 +1,108 @@
+/* ---------- PAGE 4: "THAT'S THE HIGH AND NOT THE PILL" ---------- */
+#flex4-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    justify-content: center;
+    align-items: last baseline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+#high {
+    font-family: 'Passion One';
+    font-size: 72px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.h {
+    position: relative;
+    transition-duration: 1.5s;
+}
+
+.h:hover {
+    /* animation-name: high;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite; */
+    transform: translate(0,-50px);
+}
+
+#i {
+    position: relative;
+    transition-duration: 1.5s;
+}
+
+#i:hover {
+    /* animation-name: high;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite; */
+    transform: translate(0,-50px);
+
+}
+
+#g2 {
+    position: relative;
+    transition-duration: 1.5s;
+}
+
+#g2:hover {
+    /* animation-name: high;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite; */
+    transform: translate(0,-50px);
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Passion One';
+    font-size: 54px;
+    border: 5px solid white;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* padding-top: 0.5%;
+    padding-bottom: 0.5%; */
+    border-radius: 100px;
+    border-top-width: 3px;
+    border-bottom-width: 8px;
+}
+
+#flex4-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+#pill {
+    position: relative;
+    animation-name: pill;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* ---------- ANIMATIONS KEYFRAMES ---------- */
+/* @keyframes high {
+    from {top: 0px}
+    to {top: -20px}
+} */
+
+@keyframes pill {
+    from {rotate: -15deg;}
+    to {rotate: 15deg;}
+}

@@ -1,4 +1,146 @@
-/* ---------- PAGE 3: "LOVE REMAINED A DRUG THAT'S THE HIGH AND NOT THE PILL" ---------- */
-html {
-    background-image: radial-gradient(circle,green,pink 80%);
+/* ---------- PAGE 3: "LOVE REMAINED A DRUG" ---------- */
+
+#html {
+    overflow: hidden;
+}
+
+/* #flex3-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    justify-content: center;
+    align-items: last baseline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 20%;
+} */
+
+#loveremaina {
+    text-align: center;
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 54px;
+    line-height: 1;
+    color: white;
+    /* margin-bottom: 5%; */
+    margin-top: 25%;
+
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; */
+
+    animation-name: love;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    /* background-color: pink; */
+    width:350px;
+
+    position: relative; 
+    /* right: 350px;
+    top: 175px; */
+}
+
+#drug {
+    font-family: 'Passion One';
+    font-size: 175px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: white;
+    /* background-color: blue; */
+    /* padding-left: 60%; */
+    /* padding-top: 5%; */
+    /* margin-top: 15%; */
+    /* position:relative;
+    top: 250px; */
+    width: 500px;
+    margin-left: 55%;
+
+
+}
+
+#d {
+    position: relative;
+    animation-name: drug;
+    animation-delay: 0.25s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#r {
+    position: relative;
+    animation-name: drug;
+    animation-delay: 0.75s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#u {
+    position: relative;
+    animation-name: drug;
+    animation-delay: 1.25s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#g {
+    position: relative;
+    animation-name: drug;
+    animation-delay: 1.75s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#dotone {
+    position: relative;
+    animation-name: drug;
+    animation-delay: 2.25s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#dottwo {
+    position: relative;
+    animation-name: drug;
+    animation-delay: 2.75s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#dotthree {
+    position: relative;
+    animation-name: drug;
+    animation-delay: 3.25s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* ---------- ANIMATIONS KEYFRAMES ---------- */
+@keyframes love {
+    from{transform: rotate(20deg) translate(-350px,175px);
+    }
+    to{
+        transform: rotate(-80deg) translate(1000px,0px);
+    }
+}
+
+@keyframes drug {
+    from {top: 0px}
+    to {top: -40px}
 }

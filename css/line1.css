@@ -1,10 +1,5 @@
 /* ---------- PAGE 1: "THERE USED TO BE A GRAYING TOWER ALONE ON THE SEA" ---------- */
 
-#pgone {
-    background-color: rgb(232, 220, 188);
-    cursor: default;
-}
-
 #flex1-1 {
     display: flex;
     /* background: pink; */
@@ -30,6 +25,7 @@
     /* margin-top: 3%; */
     font-family: 'Passion One', sans-serif;
     font-size: 125px;
+    color: white;
     /* transition-duration: 2s; */
 
     /* text-shadow: 0px 0px 30px gray; */
@@ -53,7 +49,7 @@
     /* transform: scaleY(0.65); */
     transform-origin: center bottom;
     /* margin-bottom: 5%; */
-
+    color: white;
     /* background-color: aqua; */
     /* align-self:flex-end; */
     /* text-shadow: 0px 0px 30px gray; */
@@ -72,6 +68,7 @@
 #alone {
     font-family: 'Passion One', sans-serif;
     font-size: 85px;
+    color: white;
     /* transition-duration: 2s; */
     text-align: center;
     /* text-align: right;
@@ -99,7 +96,7 @@
     font-family: 'Galada', cursive;
     font-size: 120px;
     transition-duration: 2s;
-    text-shadow: 0px 0px 20px rgb(189, 179, 135);
+    /* text-shadow: 0px 0px 20px white; */
 
 }
 
@@ -119,7 +116,7 @@
 /* ---------- ANIMATIONS KEYFRAMES ---------- */
 @keyframes gray {
     from{
-        color: black;
+        color: white;
     }
     to{
         color: gray;
