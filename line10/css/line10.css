@@ -1,0 +1,40 @@
+/* ---------- PAGE 10: "OOH THE MORE I GET OF YOU" ---------- */
+
+#line10 {
+    word-spacing: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#ooh {
+    font-family: 'Passion One','Anton', sans-serif;
+    font-size: 450px;
+    color: white;
+
+    /* position: relative; */
+
+
+    animation-name: ooh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+
+
+/* ---------- ANIMATIONS KEYFRAMES ---------- */
+@keyframes ooh{
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
