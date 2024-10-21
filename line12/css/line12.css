@@ -1,0 +1,65 @@
+/* ---------- PAGE 12: "AND NOW THAT YOUR ROSE IS IN BLOOM" ---------- */
+
+a {
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+.word{
+    font-family: 'Galada', cursive;
+    font-size: 100px;
+    color: white;
+}
+
+#rose {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#r-rose:hover{
+    animation-name: rose;
+    animation-duration: 2s;
+    /* animation-delay: 0.6s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+#o-rose:hover{
+    animation-name: rose;
+    animation-duration: 2s;
+    /* animation-delay: 0.6s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+#s-rose:hover{
+    animation-name: rose;
+    animation-duration: 2s;
+    /* animation-delay: 0.6s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+#e-rose:hover{
+    animation-name: rose;
+    animation-duration: 2s;
+    /* animation-delay: 0.6s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+/* ---------- ANIMATIONS KEYFRAMES ---------- */
+@keyframes rose{
+    from{
+        color: white;
+    }
+    to{
+        color: rgb(240, 158, 172);
+    }
+
+}
