@@ -1,4 +1,237 @@
 /* ---------- PAGE 9: "BABY I COMPARE YOU TO A KISS FROM A ROSE ON THE GRAY" ---------- */
 
+#baby {
+    font-family: 'Galada', cursive;
+    color: white;
+    font-size: 75px;
+    margin-top: 3%;
 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: baseline;
+    margin-left: 7%;
+    height: 90px;
+}
+
+#b1-baby {
+    animation-name: baby;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    /* transform-origin: center; */
+}
+
+#a-baby {
+    animation-name: baby;
+    animation-duration: 0.75s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+#b2-baby {
+    animation-name: baby;
+    animation-duration: 0.75s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+#y-baby {
+    animation-name: baby;
+    animation-duration: 0.75s;
+    animation-delay: 0.6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+#comma-baby {
+    animation-name: baby;
+    animation-duration: 0.75s;
+    animation-delay: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+#flex9-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    column-gap: 2%;
+    margin-left: 7%;
+    height: 115px;
+    margin-top: 5%;
+}
+
+.word{
+    font-family: 'Galada', cursive;
+    font-size: 100px;
+    color: white;
+}
+
+#kiss {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#k-kiss {
+    animation-name: kiss;
+    animation-duration: 0.75s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+#i-kiss {
+    animation-name: kiss;
+    animation-duration: 0.75s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+#s1-kiss {
+    animation-name: kiss;
+    animation-duration: 0.75s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+#s2-kiss {
+    animation-name: kiss;
+    animation-duration: 0.75s;
+    animation-delay: 0.6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+#flex9-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 2%;
+    height: 110px;
+}
+
+#rose {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#r-rose:hover{
+    animation-name: rose;
+    animation-duration: 2s;
+    /* animation-delay: 0.6s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+#o-rose:hover{
+    animation-name: rose;
+    animation-duration: 2s;
+    /* animation-delay: 0.6s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+#s-rose:hover{
+    animation-name: rose;
+    animation-duration: 2s;
+    /* animation-delay: 0.6s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+#e-rose:hover{
+    animation-name: rose;
+    animation-duration: 2s;
+    /* animation-delay: 0.6s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+#flex9-3 {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: right;
+    column-gap: 2%;
+    height: 110px;
+    margin-right: 18%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#gray {
+    animation-name: gray;
+    animation-duration: 5s;
+    /* animation-delay: 0.6s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
 /* ---------- ANIMATIONS KEYFRAMES ---------- */
+@keyframes baby{
+    from{
+        font-size: 75px ;
+    }
+    /* idea: slide letters in from left to right one by one, pause in spot, slide off right side of screen */
+   /* or grow letters one at a time */
+   
+    to{
+        font-size: 80px ;
+    }
+}
+
+
+@keyframes kiss{
+    from{
+        font-size: 100px ;
+    }
+    /* idea: slide letters in from left to right one by one, pause in spot, slide off right side of screen */
+   /* or grow letters one at a time */
+   
+    to{
+        font-size: 105px ;
+
+    }
+}
+
+@keyframes rose{
+    from{
+        color: white;
+    }
+    to{
+        color: rgb(240, 158, 172);
+    }
+
+}
+
+@keyframes gray{
+    from{
+        color: white;
+    }
+
+    to{
+        color: black;
+    }
+}

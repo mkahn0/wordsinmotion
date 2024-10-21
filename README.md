@@ -30,3 +30,6 @@ Lyrics from: 'Kiss From A Rose'
 <li>Performed by Seal</li>
 <li>Written by Seal Samuel</li>
 <li>Produced by Trevor Horn</li>
+
+
+/* For gradient on text, code tutorial is from this website: https://css-tricks.com/snippets/css/gradient-text/ */
