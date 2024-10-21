@@ -1,0 +1,38 @@
+/* ---------- PAGE 10: "THE STRANGER IT FEELS YEAH" ---------- */
+
+#line11 {
+    word-spacing: 5px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+#yeah {
+    font-family: 'Passion One','Anton', sans-serif;
+    font-size: 450px;
+    color: white;
+
+    animation-name: yeah;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+
+
+/* ---------- ANIMATIONS KEYFRAMES ---------- */
+@keyframes yeah{
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
