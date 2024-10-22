@@ -2,33 +2,24 @@
 
 #flex1-1 {
     display: flex;
-    /* background: pink; */
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items:last baseline;
-    /* align-items: flex-end; */
     column-gap: 2%;
     width: auto;
     margin-left: 10%;
     margin-right: 10%;
-    /* margin-bottom: 5%; */
-    /* margin-top: 5%; */
 }
 
 #flex1-1-2 {
-    /* background: green; */
     text-align: right;
 }
 
 #gray {
-    /* margin-top: 3%; */
     font-family: 'Passion One', sans-serif;
     font-size: 125px;
     color: white;
-    /* transition-duration: 2s; */
-
-    /* text-shadow: 0px 0px 30px gray; */
     animation-name: gray;
     animation-delay: 2s;
     animation-direction: alternate;
@@ -36,23 +27,13 @@
     animation-iteration-count: infinite;
 }
 
-
-/* #gray:hover {
-    color: gray;
-} */
-
 #tower {
     transition-duration: 3s;
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     font-size: 250px;
-    /* transform: scaleY(0.65); */
     transform-origin: center bottom;
-    /* margin-bottom: 5%; */
     color: white;
-    /* background-color: aqua; */
-    /* align-self:flex-end; */
-    /* text-shadow: 0px 0px 30px gray; */
     animation-name: tower;
     animation-delay: 0.5s;
     animation-direction: alternate-reverse;
@@ -60,10 +41,6 @@
     animation-iteration-count: infinite;
 
 }
-
-/* #tower:hover {
-    transform: scaleY(1);
-} */
 
 #alone {
     font-family: 'Passion One', sans-serif;
@@ -79,10 +56,6 @@
     animation-iteration-count: infinite;
 }
 
-/* #alone:hover {
-    letter-spacing: 40px;
-} */
-
 #flex1-2 {
     display: flex;
     flex-direction: row;
@@ -96,22 +69,11 @@
     font-family: 'Galada', cursive;
     font-size: 120px;
     transition-duration: 2s;
-    /* text-shadow: 0px 0px 20px white; */
-
 }
 
 #sea a {
     text-decoration: none;
-    color:#1f83bc;
-
 }
-
-/* #sea a:hover {
-    color: rgb(206, 149, 57);
-    background-color: #1f83bc;
-    text-shadow: 0px 0px 30px rgb(250, 246, 229);
-} */
-
 
 /* ---------- ANIMATIONS KEYFRAMES ---------- */
 @keyframes gray {
