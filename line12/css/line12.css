@@ -2,9 +2,7 @@
 
 a {
     text-decoration: none;
-    color: white;
-
-    
+    color: white; 
 }
 
 .word{
@@ -22,7 +20,6 @@ a {
 #r-rose:hover{
     animation-name: rose;
     animation-duration: 2s;
-    /* animation-delay: 0.6s; */
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-out;
@@ -30,7 +27,6 @@ a {
 #o-rose:hover{
     animation-name: rose;
     animation-duration: 2s;
-    /* animation-delay: 0.6s; */
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-out;
@@ -39,7 +35,6 @@ a {
 #s-rose:hover{
     animation-name: rose;
     animation-duration: 2s;
-    /* animation-delay: 0.6s; */
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-out;
@@ -47,10 +42,118 @@ a {
 #e-rose:hover{
     animation-name: rose;
     animation-duration: 2s;
-    /* animation-delay: 0.6s; */
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-out;
+}
+
+#b-bloom{
+    position: relative;
+    animation-name: lettersbloom;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#l-bloom{
+    position: relative;
+    animation-name: lettersbloom;
+    animation-delay: 0.25s;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#o-bloom{
+    position: relative;
+    animation-name: lettersbloom;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#o2-bloom{
+    position: relative;
+    animation-name: lettersbloom;
+    animation-delay: 0.75s;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#m-bloom{
+    position: relative;
+    animation-name: lettersbloom;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#dotone-bloom{
+    position: relative;
+    animation-name: lettersbloom;
+    animation-delay: 1.25s;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#dottwo-bloom{
+    position: relative;
+    animation-name: lettersbloom;
+    animation-delay: 1.5s;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#dotthree-bloom{
+    position: relative;
+    animation-name: lettersbloom;
+    animation-delay: 1.75s;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#bloom {
+    transform-origin: left center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#bloom:hover {
+    animation-name: bloom;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+#flex12-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#flex12-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 20%;
 }
 
 /* ---------- ANIMATIONS KEYFRAMES ---------- */
@@ -61,5 +164,26 @@ a {
     to{
         color: rgb(240, 158, 172);
     }
+}
 
+@keyframes bloom{
+    from{
+    transform: scale(1);    
+    }
+    to{
+    transform: scale(2);    
+    }
+}
+@keyframes bloomwavy{
+    from{
+    transform: scale(1);    
+    }
+    to{
+    transform: scale(2);    
+    }
+}
+
+@keyframes lettersbloom {
+    from {top: 0px}
+    to {top: -20px}
 }

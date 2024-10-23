@@ -1,0 +1,549 @@
+/* ---------- PAGE 14: "BA DA DA BA DA DA DA DA DA BA DA DA" ---------- */
+body{
+    font-family: 'Passion One', sans serif;
+    font-size: 90px;
+    color: black;
+}
+
+#flex14-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#group1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 3%;
+}
+#group2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: center;
+    padding-bottom: 3%;
+}
+#group3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: flex-end;
+    padding-bottom: 15%;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#credit {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* ---------- INDIVIDUAL WORDS ---------- */
+
+#one {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#two {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.75s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#three {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.9s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+#four {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#five {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1.7s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#six {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#seven {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#eight {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#nine {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 3.6s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+#ten {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 4.4s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#eleven {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 4.6s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#twelve {
+    animation-name: show;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 4.9s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+/* ---------- INDIVIDUAL LETTERS ---------- */
+
+
+#one-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#one-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 0.7s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#one-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 0.9s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#two-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 1.1s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#two-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 1.3s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#two-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 1.5s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#three-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 1.7s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#three-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 1.9s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#three-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 2.1s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#four-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 2.3s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#four-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 2.5s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#four-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 2.7s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#five-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 2.9s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#five-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 3.1s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#five-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 3.3s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#six-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 3.5s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#six-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 3.7s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#six-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 3.9s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#seven-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 4.1s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#seven-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 4.3s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#seven-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 4.5s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#eight-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 4.7s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#eight-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 4.9s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#eight-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 5.1s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#nine-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 5.3s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#nine-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 5.5s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#nine-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 5.6s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#ten-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 5.8s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#ten-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 6s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#ten-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 6.2s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#eleven-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 6.4s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#eleven-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 6.6s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#eleven-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 6.8s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#twelve-one{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 7s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#twelve-two{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 7.2s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#twelve-three{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 7.4s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#twelve-four{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 7.6s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#twelve-five{
+    position: relative;
+    animation-name: wavy;
+    animation-delay: 7.8s;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+/* ---------- ANIMATIONS KEYFRAMES ---------- */
+
+@keyframes show {
+    from{color: black}
+    to{color: white}
+}
+
+@keyframes wavy {
+    from {top: 0px}
+    to {top: -20px}
+}
