@@ -46,10 +46,7 @@
     font-family: 'Passion One', sans-serif;
     font-size: 85px;
     color: white;
-    /* transition-duration: 2s; */
     text-align: center;
-    /* text-align: right;
-    margin-right: 16%; */
     animation-name: alone;
     animation-direction: alternate;
     animation-duration: 3.5s;
@@ -94,7 +91,6 @@
         transform: scaleY(1);
     }
 }
-
 
 @keyframes alone {
     from {

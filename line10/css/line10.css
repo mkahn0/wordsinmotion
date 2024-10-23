@@ -14,9 +14,6 @@ a {
     font-size: 450px;
     color: white;
 
-    /* position: relative; */
-
-
     animation-name: ooh;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -26,8 +23,6 @@ a {
     margin-top: 5%;
     margin-bottom: 3%;
 }
-
-
 
 /* ---------- ANIMATIONS KEYFRAMES ---------- */
 @keyframes ooh{

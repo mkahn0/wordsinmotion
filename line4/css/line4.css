@@ -8,7 +8,6 @@
     align-items: top;
     margin-top: 10%;
     margin-left: 10%;
-    /* background-color: green; */
     text-align: left;
 }
 
@@ -17,16 +16,12 @@
 }
 
 #high {
-    /* margin-top: 0.5%; */
-    /* margin-left: 9%; */
-    
     font-family: 'Passion One', sans-serif;
     font-size: 250px;
     color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* background-color: pink; */
     position: relative;
 }
 
@@ -67,43 +62,17 @@
 }
 #i {
     position: relative;
-    /* transition-duration: 1.5s; */
 }
-
-/* #i:hover {
-    animation-name: high;
-    animation-direction: alternate;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    transform: translate(0,-50px);
-} */
 
 #g2 {
     position: relative;
-    /* transition-duration: 1.5s; */
 }
-
-/* #g2:hover {
-    animation-name: high;
-    animation-direction: alternate;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    transform: translate(0,-50px);
-} */
 
 a {
     text-decoration: none;
     color: white;
     font-family: 'Galada', cursive;
     font-size: 100px;
-    /* border: 5px solid white;
-    padding-left: 1%;
-    padding-right: 1%; */
-    /* padding-top: 0.5%;
-    padding-bottom: 0.5%; */
-    /* border-radius: 100px;
-    border-top-width: 3px;
-    border-bottom-width: 8px; */
 }
 
 #flex4-2 {
@@ -116,16 +85,7 @@ a {
     margin-top: 10%;
     margin-bottom: 5%;
     margin-right: 20%;
-    /* background-color: purple; */
 }
-
-/* #pill {
-    position: relative;
-    animation-name: pill;
-    animation-direction: alternate;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-} */
 
 /* ---------- ANIMATIONS KEYFRAMES ---------- */
 @keyframes high {
@@ -134,8 +94,3 @@ a {
     50% {top: 0px}
     100% {top: -500px}
 }
-
-/* @keyframes pill {
-    from {rotate: -15deg;}
-    to {rotate: 15deg;}
-} */

@@ -4,43 +4,21 @@
     overflow: hidden;
 }
 
-/* #flex3-1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 2%;
-    justify-content: center;
-    align-items: last baseline;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: 20%;
-} */
-
 #loveremaina {
     text-align: center;
     font-family: 'Monsieur La Doulaise', cursive;
     font-size: 54px;
     line-height: 1;
     color: white;
-    /* margin-bottom: 5%; */
     margin-top: 25%;
-
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center; */
 
     animation-name: love;
     animation-direction: normal;
     animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
-    /* background-color: pink; */
     width:350px;
-
     position: relative; 
-    /* right: 350px;
-    top: 175px; */
 }
 
 #drug {
@@ -51,16 +29,8 @@
     flex-wrap: nowrap;
     justify-content: center;
     color: white;
-    /* background-color: blue; */
-    /* padding-left: 60%; */
-    /* padding-top: 5%; */
-    /* margin-top: 15%; */
-    /* position:relative;
-    top: 250px; */
     width: 500px;
     margin-left: 55%;
-
-
 }
 
 #d {
@@ -131,6 +101,7 @@ a {
     text-decoration: none;
     color: white;
 }
+
 /* ---------- ANIMATIONS KEYFRAMES ---------- */
 @keyframes love {
     from{transform: rotate(20deg) translate(-350px,175px);

@@ -12,7 +12,6 @@ p {
     column-gap: 3%;
 }
 
-
 #snow {
     color: white;
     font-family: 'Passion One', sans-serif;
@@ -24,9 +23,7 @@ p {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-
     margin-top: 3%;
-
 }
 
 .s-snow {
@@ -36,11 +33,6 @@ p {
 
 .s-snow:hover {
     transform: translateY(40px);
-    /* animation-name: snow;
-    animation-direction: alternate;
-    animation-duration: 1s;
-    animation-iteration-count: 2;
-    animation-timing-function: ease-in-out; */
 }
 
 #n-snow {
@@ -50,12 +42,6 @@ p {
 
 #n-snow:hover {
     transform: translateY(40px);
-    
-    /* animation-name: snow;
-    animation-direction: alternate;
-    animation-duration: 1s;
-    animation-iteration-count: 2;
-    animation-timing-function: ease-in-out; */
 }
 
 #o-snow {
@@ -65,12 +51,6 @@ p {
 
 #o-snow:hover {
     transform: translateY(40px);
-    
-    /* animation-name: snow;
-    animation-direction: alternate;
-    animation-duration: 1s;
-    animation-iteration-count: 2;
-    animation-timing-function: ease-in-out; */
 }
 
 #w-snow {
@@ -80,11 +60,6 @@ p {
 
 #w-snow:hover {
     transform: translateY(40px);
-    /* animation-name: snow;
-    animation-direction: alternate;
-    animation-duration: 1s;
-    animation-iteration-count: 2;
-    animation-timing-function: ease-in-out; */
 }
 
 #dotone-snow {
@@ -117,11 +92,6 @@ p {
 }
 
 /* ---------- ANIMATIONS KEYFRAMES ---------- */
-/* @keyframes snow {
-    from {top: 0px}
-    to {top: 40px}
-} */
-
 
 @keyframes snowdot {
     from {top: 0px}

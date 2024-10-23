@@ -8,15 +8,11 @@
 
 }
 
-
 #large {
     color: white;
     font-family: 'Passion One', sans-serif;
     font-size: 50px;
     text-align: center;
-    /* margin-top: 5%;
-    margin-bottom: 5%; */
-    /* background-color: aqua; */
     height: 550px;
     width: fit-content;
     align-content: center;
@@ -34,4 +30,3 @@ a {
     color: white;
     text-decoration: none;
 }
-/* ---------- ANIMATIONS KEYFRAMES ---------- */
