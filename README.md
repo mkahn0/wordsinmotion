@@ -10,16 +10,16 @@ I chose this song primarily because of my connection to the community that intro
 In addition, I find community in my interpretation of the meaning of the song itself. The line in the chorus “I compare you to a kiss from a rose on the gray” compares a kiss with a lover to the blooming of a rose in cold weather (gray as in gray skies, rather than sunny), which is rare. To me, this metaphor is like the idea of those very few insanely close friendships I have; those trusting and close relationships are hard to come by, but they are very much appreciated and cherished.
 
 ## technical overview
-Created using Visual Studio Code
-Hosted on GitHub
-Coded in HTML and CSS
+Created using Visual Studio Code.<br>
+Hosted on GitHub.<br>
+Coded in HTML and CSS.<br>
 
 The HTML file index.html and subsequent HTML files for each page contains all text (lyrics) content. The CSS file style.css and subsequent CSS files for specific pages contains all styling elements applied to HTML pages. 
 
 
 ## initial sketches & ideas
 <img src="/img/20241007_143303.jpg" alt="pencil sketch ideas for lyrics 'there used to be a graying tower alone on the sea'">
-<img src="/img/20241007_143307.jpg">
+<img src="/img/20241007_143307.jpg" alt="pencil sketch ideas for lyrics 'you became the light on the dark side of me' and 'but did you know that when it snows my eyes become large and the light that you shine can be seen'">
 
 
 ## acknowledgment
