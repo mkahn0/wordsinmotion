@@ -14,15 +14,20 @@ Created using Visual Studio Code
 Hosted on GitHub
 Coded in HTML and CSS
 
-This is a long scrolling single page. The HTML file index.html contains all text (lyrics) content. The CSS file style.css contains all styling elements applied to index.html. 
+The HTML file index.html and subsequent HTML files for each page contains all text (lyrics) content. The CSS file style.css and subsequent CSS files for specific pages contains all styling elements applied to HTML pages. 
+
+
+## initial sketches & ideas
+<img src="/img/20241007_143303.jpg" alt="pencil sketch ideas for lyrics 'there used to be a graying tower alone on the sea'">
+<img src="/img/20241007_143307.jpg">
 
 
 ## acknowledgment
 Fonts
-<li>Anton — Designed by Vernon Adams</li>
-<li>Galada — Designed by Black Foundry</li>
-<li>Monsieur La Doulaise — Designed by Sudtipos</li>
-<li>Passion One — Designed by Fontstage</li>
+<li><a href="https://fonts.google.com/specimen/Anton">Anton — Designed by Vernon Adams</a></li>
+<li><a href="https://fonts.google.com/specimen/Galada">Galada — Designed by Black Foundry</a></li>
+<li><a href="https://fonts.google.com/specimen/Monsieur+La+Doulaise">Monsieur La Doulaise — Designed by Sudtipos</a></li>
+<li><a href="https://fonts.google.com/specimen/Passion+One">Passion One — Designed by Fontstage</a></li>
 
 
 <br>
@@ -30,6 +35,3 @@ Lyrics from: 'Kiss From A Rose'
 <li>Performed by Seal</li>
 <li>Written by Seal Samuel</li>
 <li>Produced by Trevor Horn</li>
-
-
-/* For gradient on text, code tutorial is from this website: https://css-tricks.com/snippets/css/gradient-text/ */
