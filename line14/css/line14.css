@@ -198,7 +198,7 @@ a {
     animation-delay: 0.5s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #one-two{
@@ -207,7 +207,7 @@ a {
     animation-delay: 0.7s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #one-three{
@@ -216,7 +216,7 @@ a {
     animation-delay: 0.9s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #two-one{
@@ -225,7 +225,7 @@ a {
     animation-delay: 1.1s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #two-two{
@@ -234,7 +234,7 @@ a {
     animation-delay: 1.3s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #two-three{
@@ -243,7 +243,7 @@ a {
     animation-delay: 1.5s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #three-one{
@@ -252,7 +252,7 @@ a {
     animation-delay: 1.7s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #three-two{
@@ -261,7 +261,7 @@ a {
     animation-delay: 1.9s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #three-three{
@@ -270,7 +270,7 @@ a {
     animation-delay: 2.1s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #four-one{
@@ -279,7 +279,7 @@ a {
     animation-delay: 2.3s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #four-two{
@@ -288,7 +288,7 @@ a {
     animation-delay: 2.5s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #four-three{
@@ -297,7 +297,7 @@ a {
     animation-delay: 2.7s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #five-one{
@@ -306,7 +306,7 @@ a {
     animation-delay: 2.9s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #five-two{
@@ -315,7 +315,7 @@ a {
     animation-delay: 3.1s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #five-three{
@@ -324,7 +324,7 @@ a {
     animation-delay: 3.3s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #six-one{
@@ -333,7 +333,7 @@ a {
     animation-delay: 3.5s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #six-two{
@@ -342,7 +342,7 @@ a {
     animation-delay: 3.7s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #six-three{
@@ -351,7 +351,7 @@ a {
     animation-delay: 3.9s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #seven-one{
@@ -360,7 +360,7 @@ a {
     animation-delay: 4.1s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #seven-two{
@@ -369,7 +369,7 @@ a {
     animation-delay: 4.3s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #seven-three{
@@ -378,7 +378,7 @@ a {
     animation-delay: 4.5s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #eight-one{
@@ -387,7 +387,7 @@ a {
     animation-delay: 4.7s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #eight-two{
@@ -396,7 +396,7 @@ a {
     animation-delay: 4.9s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #eight-three{
@@ -405,7 +405,7 @@ a {
     animation-delay: 5.1s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #nine-one{
@@ -414,7 +414,7 @@ a {
     animation-delay: 5.3s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #nine-two{
@@ -423,7 +423,7 @@ a {
     animation-delay: 5.5s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #nine-three{
@@ -432,7 +432,7 @@ a {
     animation-delay: 5.6s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #ten-one{
@@ -441,7 +441,7 @@ a {
     animation-delay: 5.8s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #ten-two{
@@ -450,7 +450,7 @@ a {
     animation-delay: 6s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #ten-three{
@@ -459,7 +459,7 @@ a {
     animation-delay: 6.2s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #eleven-one{
@@ -468,7 +468,7 @@ a {
     animation-delay: 6.4s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #eleven-two{
@@ -477,7 +477,7 @@ a {
     animation-delay: 6.6s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #eleven-three{
@@ -486,7 +486,7 @@ a {
     animation-delay: 6.8s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #twelve-one{
@@ -495,7 +495,7 @@ a {
     animation-delay: 7s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #twelve-two{
@@ -504,7 +504,7 @@ a {
     animation-delay: 7.2s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #twelve-three{
@@ -513,7 +513,7 @@ a {
     animation-delay: 7.4s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #twelve-four{
@@ -522,7 +522,7 @@ a {
     animation-delay: 7.6s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 #twelve-five{
@@ -531,7 +531,7 @@ a {
     animation-delay: 7.8s;
     animation-direction: alternate;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 }
 
