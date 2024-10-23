@@ -1,5 +1,6 @@
 # DES 228 Project 2: Words in Motion
-by Marisa Kahn
+by Marisa Kahn<br>
+Viewable at: https://mkahn0.github.io/wordsinmotion/. 
 ## project overview
 This project conveys the concept of community through the dynamic and interactive experience with written word. 
 
